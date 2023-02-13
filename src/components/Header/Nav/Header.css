@@ -1,0 +1,32 @@
+:root {
+    --pink-col: rgb(176, 140, 167);
+    --dark-pink: rgb(113, 55, 103);
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 50px !important;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--pink-col) !important;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    font-size: 22px;
+    color: var(--pink-col) !important;    
+}
+
+.nav-item {
+    margin-right: 20px;
+    
+}
+
+.nav-link {
+    color: var(--pink-col) !important;
+}
+
+a:hover {
+    background-color: var(--dark-pink);
+  }
