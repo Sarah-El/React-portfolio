@@ -7,4 +7,5 @@ footer p {
     color: var(--dark-pink);
     font-weight:600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
 }

@@ -1,0 +1,45 @@
+.profile-image {
+    height: 250px;
+    border-radius: 50%;
+    border: solid var(--pink-col) 5px;
+    margin-right: 50px;
+    
+}
+
+
+h1 {
+    font-size: 55px !important;
+    color: var(--pink-col);
+    font-weight: bold !important;
+    display: table;
+    background-color: aliceblue;
+    margin: 50px; 
+}
+
+.spacer {
+    letter-spacing: 5px;
+}
+
+.jumbotron {
+    display: flex;
+    background-image: url(../Assets/Hero\ image-min.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(70vh - 25px);
+    background-position: none;
+    align-items: center;
+    justify-content: center;  
+}
+
+@media only screen and (max-width: 769px) {
+    .profile-image {
+        max-width: 200px;
+        height: auto;
+    }
+  }
+
+@media only screen and (max-width: 769px) {
+    h1 {
+      font-size: 35px !important;
+    }
+  }
