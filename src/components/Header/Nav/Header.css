@@ -28,5 +28,9 @@
 }
 
 a:hover {
-    background-color: var(--dark-pink);
+    color: var(--dark-pink) !important;
+  }
+
+  .navbar-toggler {
+    margin-right: 50px;
   }
