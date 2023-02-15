@@ -10,9 +10,10 @@
 h1 {
     font-size: 55px !important;
     color: var(--pink-col);
-    font-weight: bold !important;
+    font-weight: 400 !important;
     display: table;
     background-color: aliceblue;
+    padding: 10px;
     margin: 50px; 
 }
 
